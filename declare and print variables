@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int cam1;
+        float cam2;
+        String cam3;
+        Scanner s =new Scanner(System.in);
+        cam1=s.nextInt();
+        cam2=s.nextFloat();
+        cam3=s.next();
+        System.out.println(cam1+"\n"+cam2+"\n"+cam3);
+          }
+}
