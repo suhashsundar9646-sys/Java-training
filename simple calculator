@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      int a,b,P,Q,R,M;
+        Scanner s = new Scanner(System.in);
+        a = s.nextInt();
+        b = s.nextInt();
+        P = a+b;
+        Q = a-b;
+        R = a*b;
+        M = a/b;
+        System.out.println(P+"\n"+Q+"\n"+R+"\n"+M);
+    }
+}
