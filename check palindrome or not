@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int g;
+        Scanner s= new Scanner(System.in);
+        g = s.nextInt();
+        int reverse = 0;
+        while(g>0)
+        {
+            int digit = g%10;
+            reverse=reverse*10+digit;
+            g=g/10;
+        }
+        
+        if(reverse==g)
+        {
+            System.out.println("Palindrome");
+        }
+        else
+        {
+            System.out.println("Not Palindrome");
+        }
+        
+    }
+}
