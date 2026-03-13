@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int g;
+        Scanner s= new Scanner(System.in);
+        g = 7;
+        if((g%1==0)&&(g%7==0))
+           {
+               System.out.println("Prime");
+           }
+        else
+           {
+               System.out.println("Not Prime");
+           }
+           
+           
+    }
+}
