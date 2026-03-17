@@ -1,0 +1,13 @@
+import java.util.*;
+public class Zoro{
+    public static void main(String[]args)
+    {
+        int g,b,u;
+        Scanner s = new Scanner(System.in);
+        g = s.nextInt();
+        b = s.nextInt();
+        u = g + b;
+        System.out.println(u);
+
+    }
+}
