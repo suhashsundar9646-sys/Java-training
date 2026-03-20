@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+         int count = 0;
+         int g,i;
+         g = s.nextInt();
+         for(i=0;i<g;i++){
+             int num =s.nextInt();
+             if (num%2!=0){
+                 count++;
+             }
+         }
+         System.out.println(count);
+         
+    }
+}
